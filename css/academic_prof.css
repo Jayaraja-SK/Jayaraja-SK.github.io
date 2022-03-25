@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Indie Flower");
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Inter");
+@import url("https://fonts.googleapis.com/css?family=Fira Sans");
+
+body {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: "Inter";
+}
+
+.heading {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.navigation {
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(208, 197, 219);
+    padding : 22px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    color:brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation a:hover {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(185, 164, 119);
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 750px;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.list1 { 
+    display: inline-block; 
+    text-align: left; 
+    font-family: "Fira Sans";
+    font-size: 17px;
+    background-color: rgb(206, 194, 178);
+    margin: auto;
+    width: 850px;
+}
+
+.list2 { 
+    display: inline-block; 
+    text-align: left; 
+    font-family: "Fira Sans";
+    font-size: 17px;
+    background-color: rgb(183, 192, 131);
+    margin: auto;
+    width: 850px;
+}
